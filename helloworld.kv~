@@ -1,5 +1,4 @@
 #:import Button kivy.uix.button
-#:import Slider kivy.uix.slider
 
 Button:
     text: "Playing: "
@@ -15,8 +14,3 @@ Button:
         size: (100, 100)
         pos: (350, 400)
         background_color: [1, 0, 1, 1]
-
-    Slider:
-        min: 0
-        max: 100
-        value: 25
